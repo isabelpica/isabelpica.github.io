@@ -1,0 +1,149 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 220, 234);
+}
+
+nav{
+    padding-left:4em;
+    padding-right: 4em;
+    /* TODO: figure out no longer staying fixed */
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  nav li{
+    padding: 1em 0;
+    list-style-type: none;
+    padding: 25px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color: rgb(114, 151, 219);
+    font-weight: 400;
+    /* opacity: 0.6; */
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color: orangered;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+h1{
+text-align: center;
+padding-top: 7%;
+z-index: 10;
+}
+
+p{
+padding-top: 5%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+text-align: left;
+line-height: 1.5em;
+}
+
+.unplugpic{
+width: 70%;
+padding-left: 15%;
+padding-bottom: 5%;
+/* align-self: center; */
+align-items: center;
+}
+
+.temppic{
+width: 70%;
+padding-left: 15%;
+padding-bottom: 5%;
+/* align-self: center; */
+align-items: center;
+}
+
+.ieppic{
+width: 70%;
+padding-left: 15%;
+padding-bottom: 5%;
+/* align-self: center; */
+align-items: center;
+}
+
+.comfypic{
+width: 45%;
+padding-left: 28%;
+padding-bottom: 5%;
+/* align-self: center; */
+align-items: center;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width:735px){
+    nav {
+        padding-left: 0;
+    }
+
+   /* .image-gallery {
+       padding-bottom: 200%;
+       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       grid-template-areas:
+       ".a."
+       ".b."
+       ".c."
+       ".d."
+       ".e."
+       ".f."
+       ;
+   } */
+   
+   h1{
+    text-align: center;
+    padding-top: 20%;
+    z-index: 10;
+    }
+    
+    p{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    text-align: left;
+    }
+    
+    .unplugpic{
+    padding-left: 10%;
+    width: 80%;
+    align-items: center;
+    }
+   
+    .teppic{
+    padding-left: 10%;
+    width: 80%;
+    align-items: center;
+    }
+   
+    .ieppic{
+    padding-left: 10%;
+    width: 80%;
+    align-items: center; 
+    }
+
+    .comfypic{
+    padding-left: 15%;
+    width: 70%;
+    align-items: center;  
+    }
+
+}
