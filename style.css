@@ -150,10 +150,16 @@ nav{
 } */
 
 .portrait{
-  size: 50%;
-  padding-bottom: 5%;
+  width: auto;
+  /* height: 50%; */
+  /* size: 50%; */
+  padding-left: 20%;
   z-index: 10;
   background-repeat: no-repeat;
+}
+
+.about-me-text{
+line-height: 1.5em;
 }
 
 /* CONTACT CSS */
@@ -298,12 +304,16 @@ nav{
     }
 
     .about-me-text{
-      padding-bottom: 20%;
+      padding-top: 5%;
+      line-height: 1.3em;
+      /* padding-bottom: 20%; */
     }
 
     .portrait{
-      size: 50%;
-      /* padding-bottom: 5%; */
+      width: 85%;
+      /* width: auto; */
+      /* size: 50%; */
+      padding-left: 7%;
       column-count: 1;
       background-repeat: no-repeat;
     }

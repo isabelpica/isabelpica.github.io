@@ -56,7 +56,8 @@
     font-size: 1.2em;
     padding: 10px;
     font-family: 'Work Sans', sans-serif;
-    color: rgb(23, 62, 119);
+    color: lightsalmon;
+    /* color: rgb(23, 62, 119); */
     /* color: rgb(114, 151, 219); */
     /* color:#FFA100; */
   }
@@ -98,7 +99,7 @@
     filter: alpha(opacity=0);
     /* color: lightsalmon; */
     /* color: BLACK; */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     margin-top:100px;
