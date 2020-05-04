@@ -128,7 +128,7 @@ nav{
 /* ABOUT ME CSS*/
 .about-me {
     height: 100vh !important;
-    background-color: rgb(70, 118, 189) !important;
+    background-color: rgb(163, 185, 218) !important;
     padding: 20vh 50px 0 50px;
     column-count: 2;
 }
@@ -137,7 +137,8 @@ nav{
 
 .resume{
   text-decoration: none;
-  color: lightsalmon;
+  color: orangered;
+  /* color: lightsalmon; */
 }
 
 /* .resume li a:visited{
@@ -298,7 +299,7 @@ line-height: 1.5em;
 
     .about-me {
       height: 100vh !important;
-      background-color: rgb(70, 118, 189) !important;
+      background-color: rgb(163, 185, 218) !important;
       padding: 10vh 50px 0 50px;
       column-count: 1;
     }
